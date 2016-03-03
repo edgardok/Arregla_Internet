@@ -1,13 +1,4 @@
 @echo off
-
-
-
-
-
-
-
-
-
 :menu
 cls
 title   @edgardo_Krause programando con @nipodbarrios "EL OGRO" :-) Yeah!!!!
