@@ -34,13 +34,13 @@ echo            ==============================================
 
 set /p var=Seleccione una opcion [1-7]: 
 
-if '%var%'=="1" goto uno
-if '%var%'=="2" goto dos
-if '%var%'=="3" goto tres
-if '%var%'=="4" goto cuatro
-if '%var%'=="5" goto cinco
-if '%var%'=="6" goto seis
-if '%var%'=="7" goto siete
+if "%var%"=="1" goto uno
+if "%var%"=="2" goto dos
+if "%var%"=="3" goto tres
+if "%var%"=="4" goto cuatro
+if "%var%"=="5" goto cinco
+if "%var%"=="6" goto seis
+if "%var%"=="7" goto siete
 
 
 :uno
