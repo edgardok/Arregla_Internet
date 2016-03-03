@@ -32,16 +32,15 @@ echo            =  7. Salir del Programa sin hacer nada.     =
 echo            =                                            =
 echo            ==============================================
 
-set Choice=
-set /p Choice=""
+set /p var=Seleccione una opcion [1-7]: 
 
-if '%Choice%'==1 goto 1:
-if '%Choice%'==2 goto 2:
-if '%Choice%'==3 goto 3:
-if '%Choice%'==4 goto 4:
-if '%Choice%'==5 goto 5:
-if '%Choice%'==6 goto 6:
-if '%Choice%'==7 goto 7:
+if '%var%'=="1" goto :1
+if '%var%'=="2" goto :2
+if '%var%'=="3" goto :3
+if '%var%'=="4" goto :4
+if '%var%'=="5" goto :5
+if '%var%'=="6" goto :6
+if '%var%'=="7" goto :7
 
 
 1:
