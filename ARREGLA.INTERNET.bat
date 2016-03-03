@@ -10,7 +10,7 @@
 
 :menu
 cls
-title Mrs. Krause programando con niko barrios "EL OGRO" :-) Yeah!!!!
+title   @edgardo_Krause programando con @nipodbarrios "EL OGRO" :-) Yeah!!!!
 color 27
 echo.
 echo.
